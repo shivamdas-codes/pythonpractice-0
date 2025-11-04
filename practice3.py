@@ -1,3 +1,4 @@
+# this code indicates about the conditional statements in python, which is mainly used in decision making
 light = input("light colour =")
 
 if(light == "red"):
