@@ -1,7 +1,6 @@
 # this code indicates about the conditional statements in python, which is mainly used in decision making
 # example code 1
-"""light = input("light colour =")
-
+light = input("light colour =")
 if(light == "red"):
     print("stop")
 elif(light == "yellow"):
@@ -9,12 +8,11 @@ elif(light == "yellow"):
 elif(light == "green"):
     print("go")
 else:
-    print("if light is broken")"""
-
+    print("if light is broken")
 
 
 # example code 2
-"""marks = input("marks :")
+marks = input("marks :")
 if(marks >= "90"):
     print("grade A")
 elif(marks >= "80" and marks < "90"):
@@ -22,13 +20,19 @@ elif(marks >= "80" and marks < "90"):
 elif(marks >= "70" and marks < "80"):
     print("grade C")
 else:
-    print("fail")"""
-
+    print("fail")
 # in the above code the input statement always return the string not the integer value
 # in the code the "and" operator is used to combine two conditions together
 
 
-
 # example code 3
-
-
+a = input("a :")
+g = input("f/m :")
+if((a == 2 or a == 1) and g == "m"):
+    print("fee is 200")
+elif(a == 3 or a == 5 or g == "f"):
+    print("fee is 300")
+elif(a == 4 and g == "m"):
+    print("fee is 400")
+else:
+    print("no fee")
