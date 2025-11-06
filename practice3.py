@@ -39,7 +39,7 @@ else:
 
 
 
-# this codes comes under teernary operator in python 
+# this codes comes under ternary operator also known as the single line comment in python 
 # we can write in two ways 
 food = input("food :")
 order = "yes" if food == "cake" else "no"
@@ -50,3 +50,23 @@ print(order)
 food = input("food :")
 print("sweet") if(food == "cake" or food == "icecream") else print("not sweet")
 # second by directly using print statement in it
+
+
+
+
+# this code also part of the ternary operator but in different way, also known as the "clever if" statement
+a = int(input("age :"))
+vote = ("yes","no") [a >= 18]
+print(vote)
+
+
+
+
+# we can write a clever if statement in 2 ways...
+sal = float(input("salary :"))
+tax = sal *(0.1,0.2) [sal > 50000]
+print(tax)
+
+sal = float(input("salary :"))
+tax = sal * (0.1 if sal <= 50000 else 0.2)
+print(tax)
