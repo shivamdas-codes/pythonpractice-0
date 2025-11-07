@@ -107,3 +107,11 @@ a = True
 b = True
 print(a or b)
 # or operator returns True if at least one of the operands is True otherwise it returns False if both conditions are False
+
+
+# example program
+a = 25
+b = 35
+print(not False)
+print("and value :", a >= b and b >= a)
+print("or value :", a >= b or b >= a)
