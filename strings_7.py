@@ -99,3 +99,10 @@ print(new_str)                           # stores the replaced string in a new v
 print(str1)                             # original string remains unchanged
 
 
+# ex:4 [find()]
+str1 = "i love python programming"
+print(str1.find("python"))   # returns the starting index of the first occurrence of the substring
+print(str1.find("o"))     # returns the starting index of the first occurrence of the substring
+print(str1.find("java"))     # returns -1 if the substring is not found
+
+
