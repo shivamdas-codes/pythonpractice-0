@@ -66,3 +66,16 @@ print("Occurrences of 's':", count)   # prints the number of occurrences of 's' 
 str2 = "this is shivam das"
 print(str2.count("s"))   # prints the number of occurrences of 's' in the string
 
+
+
+# (7).write a program to input the grades of a students based on marks
+student_marks = int(input("Enter your marks: "))
+if student_marks >= 90:
+    print("Grade: A")
+elif student_marks >= 80 and student_marks < 90:
+    print("Grade: B")
+elif student_marks >= 70 and student_marks < 80:
+    print("Grade: C")   
+else:
+    print("Grade: D")
+    
