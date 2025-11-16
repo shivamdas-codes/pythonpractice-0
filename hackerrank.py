@@ -1,33 +1,34 @@
-# """# (1).Given an integer, n , perform the following conditional actions:
-# If n is odd, print Weird
-# If n is even and in the inclusive range of  to , print Not Weird
-# If n is even and in the inclusive range of  to , print Weird
-# If n is even and greater than , print Not Weird"""
+"""(1).Given an integer, n , perform the following conditional actions:
+If n is odd, print Weird
+If n is even and in the inclusive range of  to , print Not Weird
+If n is even and in the inclusive range of  to , print Weird
+If n is even and greater than , print Not Weird"""
 
-# n = 24
-# if(n is "odd" and "odd numbers are weird"):
-#     print("weird")
-# elif(n is "even" and n in range(2,5)):
-#     print("not weird")
-# elif(n is "even" and n in range(6,20)):
-#     print("weird")
-# else:
-#     (n > 20 and n is "even")
-#     print("not weird")
+n = int(input())
+if n % 2 != 0:
+    print("weird")
+elif n % 2 == 0 and n in range(2,6):
+#elif n % 2 == 0 and 2 <= n <= 5:          we can write like this insted of writing "range(2,6)"
+    print("not weird")
+elif n % 2 == 0 and n in range(6,21):
+#elif n % 2 == 0 and 6 <= n <= 20:         we can write like this insted of writing "range(6,20)"
+    print("weird")
+elif n % 2 == 0 and n > 20:
+    print("not weird")
 
     
 
-# """The provided code stub reads two integers from STDIN, a and b. Add code to print three lines where:
-# The first line contains the sum of the two numbers.
-# The second line contains the difference of the two numbers (first - second).
-# The third line contains the product of the two numbers."""
+"""The provided code stub reads two integers from STDIN, a and b. Add code to print three lines where:
+The first line contains the sum of the two numbers.
+The second line contains the difference of the two numbers (first - second).
+The third line contains the product of the two numbers."""
 
-# a = int(input())
-# b = int(input())
-# sum = (a + b)
-# diff = (a - b)
-# prod = (a * b)
-# print(sum,diff,prod)
+a = int(input())
+b = int(input())
+sum = (a + b)
+diff = (a - b)
+prod = (a * b)
+print(sum,diff,prod)
 
 
 
